@@ -1,0 +1,28 @@
+<label>List</label>
+<select (change)="Sel($event)" >
+    <option [value]="dep.title" *ngFor="let dep of detail">{{dep.id}}</option>
+ 
+    
+ 
+    
+</select>
+
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Data</th>
+        <th scope="col">Activity</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dep of detail" >
+            <td>{{dep.id}}</td>
+            <td>selectedvalue:{{selectedValue}}</td>
+            <td>{{dep.author}}</td>
+            
+            
+        </tr>
+    </tbody>
+    
+</table>

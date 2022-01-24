@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 150,
+      "title": "json-server",
+      "author": "typicode"
+    },
+
+    {
+      "id":151,
+      "title": "I am ajith",
+      "author": "Ajith"
+    },
+
+    {
+      "id": 152,
+      "title": "I am ashiq",
+      "author": "Ashiq"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
